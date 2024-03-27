@@ -1,13 +1,6 @@
 const hamburger = document.querySelector("#hamburger");
 const navMenu = document.querySelector('#nav-menu')
-// (function() {
-//   var navMenu = document.getElementById('nav-menu');
-//   if (window.innerWidth < 1024) {
-//     navMenu.classList.add('hidden');
-//   } else {
-//     navMenu.classList.remove('hidden');
-//   }
-// })();
+
 
 hamburger.addEventListener("click", () => {     
   hamburger.classList.toggle("hamburger-active");
